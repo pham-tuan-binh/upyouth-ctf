@@ -1,3 +1,5 @@
+document.getElementById("flag-2").remove();
+
 const challenge = document.getElementById("numeric-background");
 
 const random = () => Math.floor(Math.random() * 1_000_000_000);
