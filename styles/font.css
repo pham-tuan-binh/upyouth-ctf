@@ -1,6 +1,6 @@
 @font-face {
     font-family: shapiro;
-    src: url(./fonts/shapiro-bold.otf);
+    src: url(/upyouth-ctf/fonts/shapiro-bold.otf);
 }
 .shapiro {
     font-family: shapiro;
