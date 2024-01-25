@@ -1,4 +1,4 @@
-document.getElementById("flag-3").remove();
+document.getElementById("flag-2").remove();
 
 const challenge = document.getElementById("numeric-background");
 
