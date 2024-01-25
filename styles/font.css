@@ -1,0 +1,12 @@
+@font-face {
+    font-family: shapiro;
+    src: url(/fonts/shapiro-bold.otf);
+}
+.shapiro {
+    font-family: shapiro;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}

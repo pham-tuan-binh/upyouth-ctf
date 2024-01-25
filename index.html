@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UpYouth Web Challenge #1</title>
+    <meta property="og:title" content="UpYouth Web Challenge #1" />
+    <meta property="og:description" content="Find three flags on this website for a chance of getting in UpYouth Talent Pool." />
+    <meta property="og:url" content="https://ctf.upyouth.org" />
+    <meta property="og:image" content="https://ctf.upyouth.org/assets/banner.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="author" content="Binh Pham">
+    <meta name="note" content="Find the author at binhph.am">
+    <meta name="flag-1" content="RmxhZ3t1cHlvdXRofQ==">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/font.css">
+    <link rel="stylesheet" href="/styles/flag.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body> 
+    <div class="absolute w-screen h-screen flex flex-col items-center justify-center p-4 z-10">
+        <div class="container flex flex-col items-center justify-center bg-transparent p-4">
+            <div class="challenge-content flex flex-col">
+                <heading1 class="shapiro text-3xl text-blue-700 font-bold mb-8">UpYouth</heading1>
+                <div class="font-semibold text-xl mb-2">Web Challenge #1</div>
+                <div class="max-w-96">
+                    Find three <b>Flag{Code}</b> on this website for a chance of getting in UpYouth Talent Pool.
+                </div>
+                <div id="flag-3">RmxhZ3sxMzQxMjQ0MTR9</div>
+            </div>
+        </div>
+    </div>
+    <button id="jumpy-button" class="absolute z-20 border border-white shadow-amber-300 shadow-md py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+        Click me
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
+        </svg>          
+    </button>
+    <div id="numeric-background" class="absolute w-screen h-screen opacity-5 overflow-hidden break-all font-medium z-0"></div>
+    
+    <script src="/scripts/utils.js"></script>
+	<script src="/scripts/button.js"></script>
+    <script src="/scripts/flag.js"></script>
+    <script src="/scripts/background.js"></script>
+  </body>
+</html>
